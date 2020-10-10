@@ -6,7 +6,7 @@ import base64
 def ocr_file(data):
     api_url = "https://api.ocr.space/parse/image"
     result = requests.post(api_url,
-                    data = {"apikey": "cf6fb2f8d68759", 
+                    data = {"apikey": "cf6fb2f", 
                             "base64Image": "data:image/png;base64,"+data,
                             "language": "eng"})
 
